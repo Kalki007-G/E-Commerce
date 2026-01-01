@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { PaymentSummary } from './PaymentSummary';
 import './CheckoutPage.css';
-import './Checkout-header.css';
+import './checkout-header.css';
 import { OrderSummary } from './OrderSummary';
 
 export function CheckoutPage({ cart, loadCart }) {
